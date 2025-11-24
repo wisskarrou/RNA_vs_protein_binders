@@ -147,7 +147,7 @@ def main():
 
     # We use a custom plot call to enable the smiles template even without a tree.
     # The 'rnavsprotbinderstree' name is changed to the scatter plot's name.
-    f.plot("RNAvsprot", template="smiles")
+    f.plot("index", template="smiles")
 
 if __name__ == "__main__":
     main()
